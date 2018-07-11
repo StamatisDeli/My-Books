@@ -17,5 +17,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+<<<<<<< HEAD
   "hopepage": "http://stamatisdeli.github.io/my-reads/*.*/"
+=======
+  "hopepage": "http://stamatisdeli.github.io/my-reads/"
+>>>>>>> 46a52366f29fd0b6e7c0fd49bc0d69dd4b445590
 }

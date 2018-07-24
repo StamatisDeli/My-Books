@@ -54,7 +54,7 @@ class BookFinder extends React.Component {
                         className="close-search"
                         to={`${process.env.PUBLIC_URL}/`}
                     >Close
-             </Link>
+                    </Link>
                     <div className="search-books-input-wrapper">
                         <input
                             type="text"

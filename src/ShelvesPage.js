@@ -48,7 +48,7 @@ class ShelvesPage extends React.Component {
 
         <div className="open-search">
           <Link
-            to="/BookFinder"
+            to={`${process.env.PUBLIC_URL}/BookFinder`}
           >Add a book
         </Link>
         </div>

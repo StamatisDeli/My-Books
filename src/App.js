@@ -64,7 +64,7 @@ class BooksApp extends React.Component {
         )}
         />
 
-        <Route path={`${process.env.PUBLIC_URL}/BookFinder`} render={() => (
+        <Route exact path={`${process.env.PUBLIC_URL}/BookFinder`} render={() => (
           <BookFinder
             books={this.state.books}
             results={this.props.results}

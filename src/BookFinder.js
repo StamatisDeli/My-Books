@@ -52,7 +52,7 @@ class BookFinder extends React.Component {
                 <div className="search-books-bar">
                     <Link
                         className="close-search"
-                        to="/"
+                        to={`${process.env.PUBLIC_URL}/`}
                     >Close
              </Link>
                     <div className="search-books-input-wrapper">
